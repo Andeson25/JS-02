@@ -1,3 +1,6 @@
-for (let i = 100; i >= 0; i-=2) {
-        document.write(i+` `);
+
+let i=0;
+while(i<100){
+    document.write(i+` `);
+    i++
 }
