@@ -52,17 +52,14 @@ let cntr2 = counter();
 prn(cntr2());
 prn(cntr2());
 
-var fibonacci_series = function (n) 
-{
-  if (n===1) 
-  {
+var fibonacci_series = n => {
+  if (n === 1) {
     return [0, 1];
-  } 
-  else 
-  {
+  } else {
     var s = fibonacci_series(n - 1);
     s.push(s[s.length - 1] + s[s.length - 2]);
     return s;
   }
-};
-prn(fibonacci_series(10));
+}
+let fibonacci_array =fibonacci_series(10);
+prn(fibonacci_array[10]);
