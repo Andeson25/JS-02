@@ -11,13 +11,12 @@ function fibonacciCycle(num) {
   return b;
 }
 function fibonacciArray(num) {
-  let array = [1, 1];
+  const array = [1, 1];
   let c;
   for (let i = 0; i < num - 2; i++) {
     c = array.length;
     array.push(array[c - 2] + array[c - 1]);
   }
-
   return array[array.length - 1];
 }
 function fibRec(n) {
