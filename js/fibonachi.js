@@ -1,6 +1,3 @@
-var a = prompt(
-  "введіть порядковий номер числа фібоначі, яке буде розраховано"
-);
 function fibonacciCycle(num) {
   let a = 1,
     b = 0,
@@ -23,11 +20,10 @@ function fibonacciArray(num) {
 
   return array[array.length - 1];
 }
-
 function fibRec(n) {
-         return n <= 2 ? 1
-         : fibRec(n - 1) + fibRec(n - 2);
- }
+  return n <= 2 ? 1 : fibRec(n - 1) + fibRec(n - 2);
+}
+var a = prompt("введіть порядковий номер числа фібоначі, яке буде розраховано"); 
 document.write(fibonacciCycle(a) + "<br>");
 document.write(fibonacciArray(a) + "<br>");
 document.write(fibRec(a));
