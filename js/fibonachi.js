@@ -25,8 +25,7 @@ function fibonacciArray(num) {
 }
 
 function fibRec(n) {
-    return n < 1 ? 0
-         : n <= 2 ? 1
+         return n <= 2 ? 1
          : fibRec(n - 1) + fibRec(n - 2);
  }
 document.write(fibonacciCycle(a) + "<br>");
