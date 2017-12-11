@@ -1,7 +1,7 @@
 // {
-function prn(el) {
-  document.write(el + `<br>`);
-}
+// function prn(el) {
+//   document.write(el + `<br>`);
+// }
 
 //   function printBold(el) {
 //     prn(`<b> ${el}<b>`);
@@ -37,11 +37,11 @@ function prn(el) {
 // }
 
 // kek();
-let cars={
-  fastes:'Tesla roadster',
-  slowest:'jigul',
-  theBest:'car_name'
-}
- for (let key in cars) {
-  prn(cars[key]);
-}
+// let cars={
+//   fastes:'Tesla roadster',
+//   slowest:'jigul',
+//   theBest:'car_name'
+// }
+//  for (let key in cars) {
+//   prn(cars[key]);
+// }
