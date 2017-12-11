@@ -1,17 +1,21 @@
-function fibonacciLoop(num) {
+function fibonacciLoop(num)
+ {
   let a = 1,
     b = 0,
     temp;
-  for (; num > 0; num--) {
+  for (; num > 0; num--) 
+  {
     temp = a;
     a = a + b;
     b = temp;
   }
   return b;
 }
-function fibonacciArray(num) {
+function fibonacciArray(num)
+ {
   const array = [1, 1];
-  for (let i = 0; i < num - 2; i++) {
+  for (let i = 0; i < num - 2; i++) 
+  {
     array.push(array[array.length - 2] + array[array.length - 1]);
   }
   return array.pop();
