@@ -37,29 +37,11 @@ function prn(el) {
 // }
 
 // kek();
-function counter() {
-  let count = 0;
-  return function() {
-    return ++count;
-  };
+let cars={
+  fastes:'Tesla roadster',
+  slowest:'jigul',
+  theBest:'car_name'
 }
-
-let cntr = counter();
-prn(cntr());
-prn(cntr());
-
-let cntr2 = counter();
-prn(cntr2());
-prn(cntr2());
-
-var fibonacci_series = n => {
-  if (n === 1) {
-    return [0, 1];
-  } else {
-    var s = fibonacci_series(n - 1);
-    s.push(s[s.length - 1] + s[s.length - 2]);
-    return s;
-  }
+ for (let key in cars) {
+  prn(cars[key]);
 }
-let fibonacci_array =fibonacci_series(10);
-prn(fibonacci_array[10]);

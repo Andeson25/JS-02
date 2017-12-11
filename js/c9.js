@@ -60,7 +60,7 @@
     
     let counter = 0;
     for (let key in cars) {
-        counter++;
+        prn(cars[key]);
     }
     prn(counter);
     
@@ -115,7 +115,9 @@
     teslaX.model = 'Tesla Model X';
     teslaX.run();
 
+    
 }
+
 
 teslaX.run();
 
