@@ -24,6 +24,6 @@ function fibRec(n) {
   return n <= 2 ? 1 : fibRec(n - 1) + fibRec(n - 2);
 }
 var a = prompt("введіть порядковий номер числа фібоначі, яке буде розраховано"); 
-document.write(fibonacciCycle(a) + "<br>");
-document.write(fibonacciArray(a) + "<br>");
-document.write(fibRec(a));
+document.write('Цикл: '+fibonacciCycle(a) + "<br>");
+document.write('Масив: '+fibonacciArray(a) + "<br>");
+document.write('Рекурсія: '+fibRec(a));
