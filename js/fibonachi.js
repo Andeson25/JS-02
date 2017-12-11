@@ -1,4 +1,4 @@
-function fibonacciCycle(num) {
+function fibonacciLoop(num) {
   let a = 1,
     b = 0,
     temp;
