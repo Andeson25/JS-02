@@ -3,7 +3,7 @@ function fibonacciLoop(num)
   let a = 1,
     b = 0,
     temp;
-  for (; num > 0; num--) 
+  for (let i=num; num > 0; i--) 
   {
     temp = a;
     a = a + b;
