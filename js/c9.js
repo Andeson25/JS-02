@@ -137,3 +137,4 @@ prn(cntr());
 let cntr2 = counter();
 prn(cntr2());
 prn(cntr2());
+ }
